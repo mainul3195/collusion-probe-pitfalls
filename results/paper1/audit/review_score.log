@@ -1,0 +1,7 @@
+stance, A1 vs model: n=60, agreement 0.87, kappa 0.73
+stance, A2 vs model: n=60, agreement 0.97, kappa 0.94
+stance, A3 vs model: n=60, agreement 0.93, kappa 0.87
+stance, majority of 3 vs model: n=59, agreement 0.97, kappa 0.93; unanimous 51/60
+stance, A1 vs A2: n=60, kappa 0.74
+stance, A1 vs A3: n=60, kappa 0.70
+stance, A2 vs A3: n=60, kappa 0.94

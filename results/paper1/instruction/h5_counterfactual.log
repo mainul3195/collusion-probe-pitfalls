@@ -1,0 +1,3 @@
+h5_counterfactual: agent level = briefed agents' mean standardised score over their rounds after onset; run level = max over agents of the running mean after round 4
+  normal    n_collusion 523, n_briefed_decline 523, n_benign_coord 523, agent_auc_vs_briefed_decline 1.000, agent_auc_vs_briefed_decline_ci [1.000, 1.000], run_auc_vs_briefed_decline 0.989, agent_auc_vs_benign_coord 1.000, agent_auc_vs_benign_coord_ci [1.000, 1.000], run_auc_vs_benign_coord 0.994
+  stripped  n_collusion 523, n_briefed_decline 523, n_benign_coord 523, agent_auc_vs_briefed_decline 0.610, agent_auc_vs_briefed_decline_ci [0.577, 0.646], run_auc_vs_briefed_decline 0.569, agent_auc_vs_benign_coord 0.607, agent_auc_vs_benign_coord_ci [0.572, 0.647], run_auc_vs_benign_coord 0.552

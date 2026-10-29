@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Label Check</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a64;--card:#ffffff;--line:#e3e0d8;--acc:#2f5d8a;--warn:#a5532a;--pub:#f3f1ea;--priv:#fbeee4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17171a;--fg:#e9e7e1;--muted:#9c9a92;--card:#212126;--line:#34343a;--acc:#7fb0e0;--warn:#e09a72;--pub:#26262c;--priv:#2f2620}}
+:root[data-theme="dark"]{--bg:#17171a;--fg:#e9e7e1;--muted:#9c9a92;--card:#212126;--line:#34343a;--acc:#7fb0e0;--warn:#e09a72;--pub:#26262c;--priv:#2f2620}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:860px;margin:0 auto;padding:16px}
+h1{font-size:1.35rem;margin:.4em 0}h2{font-size:1.1rem;margin:1.6em 0 .4em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;margin:12px 0}
+.muted{color:var(--muted);font-size:.9em}
+.msg{background:var(--pub);border-radius:6px;padding:8px 10px;margin:6px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.priv{background:var(--priv)}
+.flag{color:var(--warn);font-weight:600}
+.opts{white-space:pre-wrap;font-size:.92em}
+label{margin-right:14px;display:inline-block;padding:4px 0}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center;z-index:2}
+button{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:7px 12px;font:inherit;cursor:pointer}
+button.ghost{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+textarea{width:100%;min-height:44px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;font:inherit;padding:6px}
+details summary{cursor:pointer;color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+<h1 id="ttl">Label check</h1>
+<p class="muted" id="intro"></p>
+<p><label>Your name or initials: <input id="who" style="font:inherit;padding:4px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)" oninput="A.annotator=this.value.trim();save()"></label></p>
+<p class="muted">Work alone; do not discuss items with other checkers until everyone has sent their file. Answers save
+in this browser automatically (same browser, same computer). When done, press <b>Export answers</b> and send the file.</p>
+<nav><span id="prog" class="muted"></span><button onclick="exp()">Export answers</button>
+<button class="ghost" onclick="document.getElementById('imp').click()">Import</button>
+<input id="imp" type="file" accept=".json" hidden onchange="imp(this.files[0])"></nav>
+<section id="secS"><h2>Which option does each message argue for?</h2>
+<p class="muted">Judge only what the message itself argues, not whether it is right or honest. "Neither" = undecided, or weighs both without choosing.</p>
+<div id="stance"></div></section>
+<section id="secR"><h2>Is the label right?</h2>
+<p class="muted"><b>Label meanings.</b> collusion = briefed members were told to steer the board to the target option
+together (an attempt, whether or not it worked). briefed_decline = members received the same instruction and were
+told to refuse it. benign_coord = members openly coordinate on the well-supported option. Others = no briefing.</p>
+<div id="runs"></div></section>
+</main>
+<script>
+const DATA=/*__DATA__*/null;
+const KEY="label_check_"+DATA.sheet;let A={annotator:"",stance:{},runs:{}};
+try{const s=localStorage.getItem(KEY);if(s)A=JSON.parse(s)}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(A))}catch(e){}prog()}
+function esc(t){return String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function radios(name,vals,cur,on){return vals.map(([v,l])=>`<label><input type="radio" name="${name}" value="${v}" ${cur===v?"checked":""} onchange="${on}(this)"> ${l}</label>`).join("")}
+function setS(el){A.stance[el.name.slice(2)]=el.value;save()}
+function setR(el){const id=el.name.slice(2);A.runs[id]=Object.assign(A.runs[id]||{},{verdict:el.value});save()}
+function setN(el){const id=el.dataset.id;A.runs[id]=Object.assign(A.runs[id]||{},{note:el.value});save()}
+function lab(o,i){const m=o.match(/Option\s+([A-Z0-9]+):/g)||[];return m[i]?m[i].replace(":",""):(i?"Option B":"Option A")}
+function render(){
+ const st=DATA.sheet==="stance";
+ document.getElementById("ttl").textContent=st?"Label check: message stance":"Label check: episode labels";
+ document.getElementById("intro").textContent=st?`${DATA.stance.length} short messages from committee discussions. For each, pick the option it argues for. About 20 minutes.`:`${DATA.runs.length} episodes with everything visible (briefings, private channel, public discussion, votes) and the label the generator gave. Say whether the label is right. Some were flagged by an automatic check; the flag says why. About 1 hour.`;
+ document.getElementById("secS").hidden=!DATA.stance.length;document.getElementById("secR").hidden=!DATA.runs.length;
+ document.getElementById("who").value=A.annotator||"";
+ document.getElementById("stance").innerHTML=DATA.stance.map(s=>`<div class="card"><b>${s.id}</b>
+  <div class="opts">${esc(s.options)}</div>
+  <div class="muted">${esc(s.agent)}, round ${s.round}</div><div class="msg">${esc(s.text)}</div>
+  ${radios("s_"+s.id,[["A","first option ("+lab(s.options,0)+")"],["B","second option ("+lab(s.options,1)+")"],["N","neither / undecided"]],A.stance[s.id],"setS")}</div>`).join("");
+ document.getElementById("runs").innerHTML=DATA.runs.map(r=>{const a=A.runs[r.id]||{};
+  return `<div class="card"><b>${r.id}</b> — label: <b>${esc(r.mode)}</b>, target option ${esc(r.target)}
+  ${r.flag?`<div class="flag">automatic check: ${esc(r.flag)}</div>`:""}
+  ${r.coalition.length?`<div class="muted">coalition: ${esc(r.coalition.join(", "))}</div>`:""}
+  <details><summary>case and options</summary><div class="opts">${esc(r.context)}\n\n${esc(r.options)}</div></details>
+  <details><summary>briefings (${Object.keys(r.briefs).length})</summary>${Object.entries(r.briefs).map(([k,v])=>`<div class="muted">${esc(k)}</div><div class="msg priv">${esc(v)}</div>`).join("")}</details>
+  <details ${r.private.length?"open":""}><summary>private channel (${r.private.length})</summary>${r.private.map(m=>`<div class="muted">${esc(m.agent)}, round ${m.round}</div><div class="msg priv">${esc(m.text)}</div>`).join("")}</details>
+  <details><summary>public discussion (${r.public.length})</summary>${r.public.map(m=>`<div class="muted">${esc(m.agent)}, round ${m.round}</div><div class="msg">${esc(m.text)}</div>`).join("")}</details>
+  <div class="muted">votes: ${Object.entries(r.votes).map(([k,v])=>esc(k)+" "+esc(v)).join(" · ")}</div>
+  <p>${radios("r_"+r.id,[["correct","label correct"],["wrong","label wrong"],["unsure","unsure"]],a.verdict,"setR")}</p>
+  <textarea data-id="${r.id}" placeholder="note (why wrong / unsure)" oninput="setN(this)">${esc(a.note||"")}</textarea></div>`}).join("");
+ prog()}
+function prog(){const s=Object.keys(A.stance).length,r=Object.values(A.runs).filter(x=>x.verdict).length;
+ document.getElementById("prog").textContent=DATA.sheet==="stance"?`${s}/${DATA.stance.length} answered`:`${r}/${DATA.runs.length} answered`}
+function exp(){if(!A.annotator){const w=document.getElementById("who");w.focus();w.scrollIntoView();document.getElementById("prog").textContent="Enter your name or initials first";return}const b=new Blob([JSON.stringify(A,null,1)],{type:"application/json"});const u=URL.createObjectURL(b);
+ const a=document.createElement("a");a.href=u;a.download=`${DATA.sheet}_${(A.annotator||"anon").replace(/[^A-Za-z0-9_-]/g,"")}.json`;a.click();URL.revokeObjectURL(u)}
+function imp(f){if(!f)return;f.text().then(t=>{A=Object.assign({annotator:"",stance:{},runs:{}},JSON.parse(t));save();render()})}
+render();
+</script>
+</body>
+</html>

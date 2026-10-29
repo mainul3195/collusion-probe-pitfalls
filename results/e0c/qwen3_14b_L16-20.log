@@ -1,0 +1,27 @@
+layer 16
+layer 17
+layer 18
+layer 19
+layer 20
+
+Paper-style AUROC (mean over layers):
+  core_heldout           sorted_con=1.000  activation=0.999  peak_suspi=1.000  deception_=1.000  asymmetry_=1.000
+  transfer_mean_family   sorted_con=0.838  activation=0.622  peak_suspi=0.881  deception_=0.866  asymmetry_=0.915
+  stego                  sorted_con=0.958  activation=1.000  peak_suspi=0.975  deception_=0.931  asymmetry_=0.972
+
+Pooled, layer-ensembled: AUROC | TPR@0 | TPR@1% | TPR@5% | TPR@10%  (n_pos/n_neg)
+  core      sorted_concat          1.000 | 1.00 | 1.00 | 1.00 | 1.00  (50/50)  AUROC CI [1.00,1.00]
+  core      activation_alignment   0.998 | 0.92 | 0.92 | 1.00 | 1.00  (50/50)  AUROC CI [0.99,1.00]
+  core      peak_suspicion         1.000 | 1.00 | 1.00 | 1.00 | 1.00  (50/50)  AUROC CI [1.00,1.00]
+  core      deception_split        1.000 | 1.00 | 1.00 | 1.00 | 1.00  (50/50)  AUROC CI [1.00,1.00]
+  core      asymmetry_probe        1.000 | 1.00 | 1.00 | 1.00 | 1.00  (50/50)  AUROC CI [1.00,1.00]
+  transfer  sorted_concat          0.770 | 0.08 | 0.08 | 0.31 | 0.47  (36/36)  AUROC CI [0.65,0.87]
+  transfer  activation_alignment   0.584 | 0.06 | 0.06 | 0.08 | 0.08  (36/36)  AUROC CI [0.45,0.72]
+  transfer  peak_suspicion         0.846 | 0.11 | 0.11 | 0.25 | 0.31  (36/36)  AUROC CI [0.74,0.93]
+  transfer  deception_split        0.939 | 0.78 | 0.78 | 0.86 | 0.89  (36/36)  AUROC CI [0.87,0.99]
+  transfer  asymmetry_probe        0.906 | 0.47 | 0.47 | 0.50 | 0.75  (36/36)  AUROC CI [0.83,0.97]
+  stego     sorted_concat          1.000 | 1.00 | 1.00 | 1.00 | 1.00  (20/20)  AUROC CI [1.00,1.00]
+  stego     activation_alignment   1.000 | 1.00 | 1.00 | 1.00 | 1.00  (20/20)  AUROC CI [1.00,1.00]
+  stego     peak_suspicion         0.990 | 0.95 | 0.95 | 0.95 | 0.95  (20/20)  AUROC CI [0.96,1.00]
+  stego     deception_split        0.972 | 0.95 | 0.95 | 0.95 | 0.95  (20/20)  AUROC CI [0.90,1.00]
+  stego     asymmetry_probe        0.992 | 0.95 | 0.95 | 0.95 | 0.95  (20/20)  AUROC CI [0.97,1.00]

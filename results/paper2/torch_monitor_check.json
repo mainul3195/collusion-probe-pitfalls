@@ -1,0 +1,17 @@
+{
+  "monitor": "runs/p2/monitor/committee_v0",
+  "act_dir": "runs/qwen3_8b/e2v2_col_c0_act",
+  "device": "NVIDIA GeForce RTX 4080",
+  "episodes": 100,
+  "rows": 2941,
+  "fp16": {
+    "max": 0.2830570728567965,
+    "mean": 0.032794357593619046
+  },
+  "raw": {
+    "max": 0.2830570728567965,
+    "mean": 0.032794357593619046
+  },
+  "pass_fp16": false,
+  "grad_norm": 47.525108337402344
+}

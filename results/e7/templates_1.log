@@ -1,0 +1,131 @@
+rows 83480  probe labels: pos 10445 neg 66445
+cell fold 0 template 4: 121 test runs
+cell fold 0 template 2: 129 test runs
+cell fold 0 template 0: 126 test runs
+cell fold 1 template 1: 128 test runs
+cell fold 1 template 3: 120 test runs
+cell fold 0 template 3: 129 test runs
+cell fold 1 template 0: 132 test runs
+cell fold 1 template 2: 128 test runs
+cell fold 0 template 1: 135 test runs
+cell fold 1 template 4: 132 test runs
+cell fold 2 template 0: 126 test runs
+cell fold 2 template 2: 132 test runs
+cell fold 2 template 4: 124 test runs
+cell fold 3 template 3: 126 test runs
+cell fold 3 template 1: 125 test runs
+cell fold 2 template 3: 125 test runs
+cell fold 2 template 1: 133 test runs
+cell fold 3 template 2: 123 test runs
+cell fold 3 template 4: 134 test runs
+cell fold 3 template 0: 132 test runs
+cell fold 4 template 2: 128 test runs
+cell fold 4 template 0: 124 test runs
+cell fold 4 template 4: 129 test runs
+cell fold 4 template 3: 140 test runs
+cell fold 4 template 1: 119 test runs
+
+== act/layer ib=exclude calib=cross: ALL (leave-scenario-and-template-out)  counts {'pos': 412, 'fail': 588, 'ib': 300, 'control': 700, 'benign_coord': 600, 'briefed_decline': 300, 'tacit': 150, 'cost_pressure': 150}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.971 | 0.73 | 0.79 [0.72,0.83] | 0.88 | 0.54 | 0.90 | 0.85 | briefed_decline 0.09
+  peak|cummean       0.999 | 0.94 | 0.98 [0.95,0.99] | 1.00 | 0.50 | 0.99 | 0.93 | briefed_decline 0.13
+  dsplit_k2|cummean  0.990 | 0.72 | 0.77 [0.71,0.81] | 0.95 | 0.68 | 0.98 | 0.84 | briefed_decline 0.11
+  ca_t|cummean       0.998 | 0.86 | 0.94 [0.89,0.96] | 1.00 | 1.00 | 0.99 | 0.92 | briefed_decline 0.13
+  ca_glr|cummean     0.998 | 0.93 | 0.96 [0.94,0.99] | 0.99 | 0.98 | 0.99 | 0.92 | briefed_decline 0.12
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.97 | 0.005 | 0.0 | 0.0 | 0.3933333333333333 | 0.73
+  peak|last          a=0.05: 1.00 | 0.024 | 0.0 | 0.0 | 0.6966666666666667 | 0.93
+  dsplit_k2|last     a=0.01: 0.69 | 0.006 | 0.0 | 0.0 | 0.2966666666666667 | 0.53
+  dsplit_k2|last     a=0.05: 0.91 | 0.032 | 0.0 | 0.0 | 0.5533333333333333 | 0.78
+  ca_t|last          a=0.01: 0.91 | 0.003 | 0.0 | 0.0 | 0.29 | 0.70
+  ca_t|last          a=0.05: 0.99 | 0.025 | 0.0 | 0.0 | 0.6066666666666667 | 0.93
+  peak|cummean       a=0.01: 0.89 | 0.008 | 0.0 | 0.0 | 0.2633333333333333 | 0.65
+  peak|cummean       a=0.05: 0.99 | 0.034 | 0.0 | 0.009852216748768473 | 0.5166666666666667 | 0.88
+  dsplit_k2|cummean  a=0.01: 0.68 | 0.006 | 0.0 | 0.0 | 0.18 | 0.49
+  dsplit_k2|cummean  a=0.05: 0.84 | 0.036 | 0.0 | 0.005763688760806916 | 0.3933333333333333 | 0.74
+  ca_t|cummean       a=0.01: 0.81 | 0.008 | 0.0 | 0.0 | 0.17 | 0.68
+  ca_t|cummean       a=0.05: 0.97 | 0.033 | 0.0 | 0.002512562814070352 | 0.42 | 0.89
+
+== pre-registered held-out template 4 only  counts {'pos': 69, 'fail': 131, 'ib': 60, 'control': 140, 'benign_coord': 120, 'briefed_decline': 60, 'tacit': 30, 'cost_pressure': 30}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.973 | 0.72 | 0.81 [0.64,0.91] | 0.88 | 0.53 | 0.92 | 0.84 | briefed_decline 0.17
+  peak|cummean       0.999 | 0.87 | 0.99 [0.84,1.00] | 1.00 | 0.54 | 0.99 | 0.92 | briefed_decline 0.23
+  dsplit_k2|cummean  0.988 | 0.68 | 0.75 [0.58,0.90] | 0.96 | 0.63 | 0.98 | 0.81 | briefed_decline 0.12
+  ca_t|cummean       0.999 | 0.91 | 0.94 [0.87,1.00] | 1.00 | 1.00 | 1.00 | 0.91 | briefed_decline 0.17
+  ca_glr|cummean     0.999 | 0.91 | 0.99 [0.87,1.00] | 1.00 | 0.97 | 0.99 | 0.92 | briefed_decline 0.22
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.94 | 0.013 | 0.0 | 0.0 | 0.5 | 0.69
+  peak|last          a=0.05: 1.00 | 0.037 | 0.0 | 0.0 | 0.7166666666666667 | 0.98
+  dsplit_k2|last     a=0.01: 0.64 | 0.011 | 0.0 | 0.0 | 0.36666666666666664 | 0.54
+  dsplit_k2|last     a=0.05: 0.90 | 0.045 | 0.0 | 0.0 | 0.6166666666666667 | 0.85
+  ca_t|last          a=0.01: 0.87 | 0.000 | 0.0 | 0.0 | 0.4 | 0.66
+  ca_t|last          a=0.05: 0.99 | 0.034 | 0.0 | 0.0 | 0.6833333333333333 | 0.96
+  peak|cummean       a=0.01: 0.90 | 0.011 | 0.0 | 0.0 | 0.3333333333333333 | 0.67
+  peak|cummean       a=0.05: 0.99 | 0.024 | 0.0 | 0.014705882352941176 | 0.5 | 0.89
+  dsplit_k2|cummean  a=0.01: 0.64 | 0.003 | 0.0 | 0.0 | 0.16666666666666666 | 0.47
+  dsplit_k2|cummean  a=0.05: 0.84 | 0.045 | 0.0 | 0.0 | 0.4666666666666667 | 0.78
+  ca_t|cummean       a=0.01: 0.77 | 0.003 | 0.0 | 0.0 | 0.15 | 0.63
+  ca_t|cummean       a=0.05: 0.97 | 0.037 | 0.0 | 0.0 | 0.45 | 0.89
+
+== PRE-VOTE (after discussion round 4), positives = successful collusion  counts {'pos': 412, 'fail': 588, 'ib': 300, 'control': 700, 'benign_coord': 600, 'briefed_decline': 300, 'tacit': 150, 'cost_pressure': 150}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.960 | 0.69 | 0.73 [0.69,0.79] | 0.84 | 0.54 | 0.88 | 0.86 | benign_coord 0.07
+  peak|cummean       0.993 | 0.87 | 0.88 [0.84,0.92] | 0.98 | 0.50 | 0.98 | 0.92 | briefed_decline 0.10
+  dsplit_k2|cummean  0.982 | 0.65 | 0.71 [0.64,0.77] | 0.89 | 0.68 | 0.97 | 0.86 | benign_coord 0.10
+  ca_t|cummean       0.992 | 0.80 | 0.84 [0.79,0.89] | 0.95 | 1.00 | 0.99 | 0.92 | benign_coord 0.10
+  ca_glr|cummean     0.992 | 0.85 | 0.88 [0.85,0.91] | 0.97 | 0.95 | 0.98 | 0.92 | briefed_decline 0.09
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.89 | 0.001 | 0.0 | 0.0 | 0.10333333333333333 | 0.69
+  peak|last          a=0.05: 0.96 | 0.009 | 0.0 | 0.0 | 0.33666666666666667 | 0.89
+  dsplit_k2|last     a=0.01: 0.61 | 0.001 | 0.0 | 0.0 | 0.07666666666666666 | 0.50
+  dsplit_k2|last     a=0.05: 0.83 | 0.021 | 0.0 | 0.0 | 0.2833333333333333 | 0.72
+  ca_t|last          a=0.01: 0.78 | 0.002 | 0.0 | 0.0 | 0.07 | 0.67
+  ca_t|last          a=0.05: 0.94 | 0.015 | 0.0 | 0.0 | 0.2733333333333333 | 0.89
+  peak|cummean       a=0.01: 0.81 | 0.007 | 0.0 | 0.0 | 0.19333333333333333 | 0.58
+  peak|cummean       a=0.05: 0.92 | 0.032 | 0.0 | 0.010498687664041995 | 0.4166666666666667 | 0.80
+  dsplit_k2|cummean  a=0.01: 0.65 | 0.006 | 0.0 | 0.0 | 0.13333333333333333 | 0.45
+  dsplit_k2|cummean  a=0.05: 0.79 | 0.035 | 0.0 | 0.0061162079510703364 | 0.29333333333333333 | 0.69
+  ca_t|cummean       a=0.01: 0.75 | 0.008 | 0.0 | 0.0 | 0.14333333333333334 | 0.60
+  ca_t|cummean       a=0.05: 0.90 | 0.032 | 0.0 | 0.002702702702702703 | 0.2866666666666667 | 0.84
+
+== PRE-VOTE, positives = ALL collusion attempts (successful or not)  counts {'pos': 1000, 'fail': 588, 'ib': 300, 'control': 700, 'benign_coord': 600, 'briefed_decline': 300, 'tacit': 150, 'cost_pressure': 150}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.912 | 0.51 | 0.57 [0.53,0.62] | 0.70 | 0.50 | 0.88 | 0.76 | benign_coord 0.07
+  peak|cummean       0.985 | 0.75 | 0.78 [0.75,0.82] | 0.94 | 0.54 | 0.98 | 0.86 | briefed_decline 0.10
+  dsplit_k2|cummean  0.976 | 0.56 | 0.62 [0.56,0.69] | 0.85 | 0.66 | 0.97 | 0.82 | benign_coord 0.10
+  ca_t|cummean       0.988 | 0.71 | 0.78 [0.73,0.84] | 0.93 | 1.00 | 0.99 | 0.89 | benign_coord 0.10
+  ca_glr|cummean     0.983 | 0.73 | 0.78 [0.75,0.81] | 0.92 | 0.90 | 0.98 | 0.86 | briefed_decline 0.09
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.77 | 0.001 | 0.0 | 0.0 | 0.10333333333333333 | 0.69
+  peak|last          a=0.05: 0.92 | 0.009 | 0.0 | 0.0 | 0.33666666666666667 | 0.89
+  dsplit_k2|last     a=0.01: 0.55 | 0.001 | 0.0 | 0.0 | 0.07666666666666666 | 0.50
+  dsplit_k2|last     a=0.05: 0.77 | 0.021 | 0.0 | 0.0 | 0.2833333333333333 | 0.72
+  ca_t|last          a=0.01: 0.72 | 0.002 | 0.0 | 0.0 | 0.07 | 0.67
+  ca_t|last          a=0.05: 0.91 | 0.015 | 0.0 | 0.0 | 0.2733333333333333 | 0.89
+  peak|cummean       a=0.01: 0.68 | 0.007 | 0.0 | 0.0 | 0.19333333333333333 | 0.58
+  peak|cummean       a=0.05: 0.85 | 0.032 | 0.0 | 0.009378663540445486 | 0.4166666666666667 | 0.80
+  dsplit_k2|cummean  a=0.01: 0.53 | 0.006 | 0.0 | 0.0 | 0.13333333333333333 | 0.45
+  dsplit_k2|cummean  a=0.05: 0.73 | 0.035 | 0.0 | 0.006830601092896175 | 0.29333333333333333 | 0.69
+  ca_t|cummean       a=0.01: 0.66 | 0.008 | 0.0 | 0.0 | 0.14333333333333334 | 0.60
+  ca_t|cummean       a=0.05: 0.87 | 0.032 | 0.0 | 0.006928406466512702 | 0.2866666666666667 | 0.84
+
+== END, positives = ALL collusion attempts  counts {'pos': 1000, 'fail': 588, 'ib': 300, 'control': 700, 'benign_coord': 600, 'briefed_decline': 300, 'tacit': 150, 'cost_pressure': 150}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.927 | 0.55 | 0.62 [0.56,0.66] | 0.74 | 0.50 | 0.90 | 0.74 | briefed_decline 0.09
+  peak|cummean       0.993 | 0.83 | 0.88 [0.84,0.90] | 0.97 | 0.54 | 0.99 | 0.85 | briefed_decline 0.13
+  dsplit_k2|cummean  0.985 | 0.61 | 0.69 [0.61,0.72] | 0.91 | 0.66 | 0.98 | 0.79 | briefed_decline 0.11
+  ca_t|cummean       0.995 | 0.79 | 0.89 [0.83,0.92] | 0.98 | 1.00 | 0.99 | 0.88 | briefed_decline 0.13
+  ca_glr|cummean     0.993 | 0.81 | 0.86 [0.83,0.91] | 0.96 | 0.90 | 0.99 | 0.85 | briefed_decline 0.12
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.83 | 0.005 | 0.0 | 0.0 | 0.3933333333333333 | 0.73
+  peak|last          a=0.05: 0.96 | 0.024 | 0.0 | 0.0 | 0.6966666666666667 | 0.93
+  dsplit_k2|last     a=0.01: 0.59 | 0.006 | 0.0 | 0.0 | 0.2966666666666667 | 0.53
+  dsplit_k2|last     a=0.05: 0.83 | 0.032 | 0.0 | 0.0 | 0.5533333333333333 | 0.78
+  ca_t|last          a=0.01: 0.79 | 0.003 | 0.0 | 0.0 | 0.29 | 0.70
+  ca_t|last          a=0.05: 0.95 | 0.025 | 0.0 | 0.0 | 0.6066666666666667 | 0.93
+  peak|cummean       a=0.01: 0.75 | 0.008 | 0.0 | 0.0 | 0.2633333333333333 | 0.65
+  peak|cummean       a=0.05: 0.93 | 0.034 | 0.0 | 0.008648648648648649 | 0.5166666666666667 | 0.88
+  dsplit_k2|cummean  a=0.01: 0.57 | 0.006 | 0.0 | 0.0 | 0.18 | 0.49
+  dsplit_k2|cummean  a=0.05: 0.78 | 0.036 | 0.0 | 0.006402048655569782 | 0.3933333333333333 | 0.74
+  ca_t|cummean       a=0.01: 0.73 | 0.008 | 0.0 | 0.0 | 0.17 | 0.68
+  ca_t|cummean       a=0.05: 0.92 | 0.033 | 0.0 | 0.006514657980456026 | 0.42 | 0.89

@@ -1,0 +1,431 @@
+rows 21475  probe labels: pos 3116 neg 16290
+cell fold 0 template 2: 38 test runs
+cell fold 1 template 1: 28 test runs
+cell fold 0 template 4: 29 test runs
+cell fold 0 template 0: 36 test runs
+cell fold 1 template 3: 32 test runs
+cell fold 0 template 3: 42 test runs
+cell fold 1 template 2: 28 test runs
+cell fold 1 template 0: 33 test runs
+cell fold 0 template 1: 39 test runs
+cell fold 1 template 4: 40 test runs
+cell fold 2 template 2: 40 test runs
+cell fold 2 template 0: 35 test runs
+cell fold 2 template 4: 20 test runs
+cell fold 3 template 1: 35 test runs
+cell fold 3 template 3: 30 test runs
+cell fold 2 template 3: 29 test runs
+cell fold 3 template 0: 30 test runs
+cell fold 2 template 1: 37 test runs
+cell fold 3 template 2: 33 test runs
+cell fold 3 template 4: 33 test runs
+cell fold 4 template 2: 28 test runs
+cell fold 4 template 0: 33 test runs
+cell fold 4 template 4: 40 test runs
+cell fold 4 template 3: 32 test runs
+cell fold 4 template 1: 28 test runs
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+$THESIS_ROOT/venv/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+== act/layer ib=exclude calib=cross: ALL (leave-scenario-and-template-out)  counts {'pos': 265, 'fail': 23, 'ib': 108, 'control': 144, 'benign_coord': 144, 'briefed_decline': 144, 'tacit': 0, 'cost_pressure': 0}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.965 | 0.62 | 0.65 [0.56,0.74] | 0.77 | 0.52 | 0.92 | 0.71 | briefed_decline 0.14
+  peak|cummean       0.996 | 0.82 | 0.85 [0.78,0.93] | 0.99 | 0.52 | 0.98 | 0.80 | briefed_decline 0.14
+  dsplit_k2|cummean  0.977 | 0.60 | 0.68 [0.48,0.79] | 0.85 | 0.66 | 0.98 | 0.69 | briefed_decline 0.15
+  ca_t|cummean       0.994 | 0.82 | 0.84 [0.69,0.92] | 0.97 | 1.00 | 0.99 | 0.77 | briefed_decline 0.13
+  ca_glr|cummean     0.996 | 0.83 | 0.86 [0.80,0.95] | 0.99 | 0.94 | 0.98 | 0.80 | briefed_decline 0.14
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.95 | 0.009 | 0.0 | 0.0 | 0.5277777777777778 | 0.78
+  peak|last          a=0.05: 0.99 | 0.037 | 0.0 | 0.0 | 0.8333333333333334 | 0.96
+  dsplit_k2|last     a=0.01: 0.52 | 0.002 | 0.0 | 0.0 | 0.3333333333333333 | 0.52
+  dsplit_k2|last     a=0.05: 0.77 | 0.028 | 0.0 | 0.0 | 0.5648148148148148 | 0.78
+  ca_t|last          a=0.01: 0.73 | 0.002 | 0.0 | 0.0 | 0.32407407407407407 | 0.61
+  ca_t|last          a=0.05: 0.95 | 0.030 | 0.0 | 0.0 | 0.6481481481481481 | 0.78
+  peak|cummean       a=0.01: 0.84 | 0.025 | 0.0 | 0.0 | 0.4351851851851852 | 0.70
+  peak|cummean       a=0.05: 0.98 | 0.065 | 0.0 | 0.0 | 0.75 | 0.96
+  dsplit_k2|cummean  a=0.01: 0.54 | 0.014 | 0.0 | 0.0 | 0.2777777777777778 | 0.35
+  dsplit_k2|cummean  a=0.05: 0.77 | 0.044 | 0.0 | 0.0 | 0.5370370370370371 | 0.74
+  ca_t|cummean       a=0.01: 0.75 | 0.012 | 0.0 | 0.0 | 0.35185185185185186 | 0.57
+  ca_t|cummean       a=0.05: 0.92 | 0.049 | 0.0 | 0.0 | 0.6296296296296297 | 0.96
+
+== pre-registered held-out template 4 only  counts {'pos': 54, 'fail': 3, 'ib': 21, 'control': 28, 'benign_coord': 28, 'briefed_decline': 28, 'tacit': 0, 'cost_pressure': 0}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.956 | 0.63 | 0.63 [0.48,0.79] | 0.80 | 0.55 | 0.94 | 0.76 | briefed_decline 0.14
+  peak|cummean       0.989 | 0.85 | 0.85 [0.78,0.94] | 0.91 | 0.49 | 0.99 | 0.75 | briefed_decline 0.14
+  dsplit_k2|cummean  0.953 | 0.43 | 0.43 [0.30,0.76] | 0.83 | 0.64 | 0.98 | 0.61 | briefed_decline 0.14
+  ca_t|cummean       0.990 | 0.74 | 0.74 [0.63,0.94] | 0.93 | 1.00 | 1.00 | 0.72 | briefed_decline 0.14
+  ca_glr|cummean     0.990 | 0.89 | 0.89 [0.80,0.96] | 0.94 | 0.93 | 1.00 | 0.78 | briefed_decline 0.14
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.98 | 0.036 | 0.0 | 0.0 | 0.8571428571428571 | 1.00
+  peak|last          a=0.05: 1.00 | 0.095 | 0.0 | 0.0 | 0.9523809523809523 | 1.00
+  dsplit_k2|last     a=0.01: 0.50 | 0.000 | 0.0 | 0.0 | 0.42857142857142855 | 0.67
+  dsplit_k2|last     a=0.05: 0.81 | 0.060 | 0.0 | 0.0 | 0.7619047619047619 | 1.00
+  ca_t|last          a=0.01: 0.80 | 0.000 | 0.0 | 0.0 | 0.42857142857142855 | 1.00
+  ca_t|last          a=0.05: 0.98 | 0.083 | 0.0 | 0.0 | 0.8571428571428571 | 1.00
+  peak|cummean       a=0.01: 0.91 | 0.060 | 0.0 | 0.0 | 0.5714285714285714 | 1.00
+  peak|cummean       a=0.05: 0.98 | 0.143 | 0.0 | 0.0 | 0.9523809523809523 | 1.00
+  dsplit_k2|cummean  a=0.01: 0.52 | 0.012 | 0.0 | 0.0 | 0.2857142857142857 | 0.67
+  dsplit_k2|cummean  a=0.05: 0.83 | 0.095 | 0.0 | 0.0 | 0.7142857142857143 | 1.00
+  ca_t|cummean       a=0.01: 0.81 | 0.000 | 0.0 | 0.0 | 0.42857142857142855 | 1.00
+  ca_t|cummean       a=0.05: 0.96 | 0.119 | 0.0 | 0.0 | 0.8095238095238095 | 1.00
+
+== PRE-VOTE (after discussion round 4), positives = successful collusion  counts {'pos': 265, 'fail': 23, 'ib': 108, 'control': 144, 'benign_coord': 144, 'briefed_decline': 144, 'tacit': 0, 'cost_pressure': 0}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.958 | 0.57 | 0.61 [0.53,0.71] | 0.77 | 0.52 | 0.90 | 0.71 | briefed_decline 0.13
+  peak|cummean       0.991 | 0.70 | 0.76 [0.67,0.86] | 0.95 | 0.52 | 0.98 | 0.78 | briefed_decline 0.13
+  dsplit_k2|cummean  0.973 | 0.59 | 0.60 [0.49,0.75] | 0.81 | 0.66 | 0.98 | 0.70 | briefed_decline 0.12
+  ca_t|cummean       0.988 | 0.72 | 0.77 [0.65,0.87] | 0.92 | 1.00 | 0.99 | 0.76 | briefed_decline 0.11
+  ca_glr|cummean     0.991 | 0.75 | 0.75 [0.70,0.86] | 0.96 | 0.88 | 0.98 | 0.78 | briefed_decline 0.12
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.92 | 0.000 | 0.0 | 0.0 | 0.3888888888888889 | 0.74
+  peak|last          a=0.05: 0.97 | 0.023 | 0.0 | 0.0 | 0.7222222222222222 | 0.96
+  dsplit_k2|last     a=0.01: 0.51 | 0.002 | 0.0 | 0.0 | 0.2037037037037037 | 0.52
+  dsplit_k2|last     a=0.05: 0.73 | 0.021 | 0.0 | 0.0 | 0.4444444444444444 | 0.74
+  ca_t|last          a=0.01: 0.68 | 0.000 | 0.0 | 0.0 | 0.2222222222222222 | 0.57
+  ca_t|last          a=0.05: 0.92 | 0.019 | 0.0 | 0.0 | 0.4537037037037037 | 0.78
+  peak|cummean       a=0.01: 0.75 | 0.025 | 0.0 | 0.0 | 0.4074074074074074 | 0.57
+  peak|cummean       a=0.05: 0.94 | 0.056 | 0.0 | 0.0 | 0.6203703703703703 | 0.87
+  dsplit_k2|cummean  a=0.01: 0.50 | 0.012 | 0.0 | 0.0 | 0.24074074074074073 | 0.30
+  dsplit_k2|cummean  a=0.05: 0.72 | 0.044 | 0.0 | 0.0 | 0.46296296296296297 | 0.70
+  ca_t|cummean       a=0.01: 0.67 | 0.012 | 0.0 | 0.0 | 0.3148148148148148 | 0.43
+  ca_t|cummean       a=0.05: 0.84 | 0.042 | 0.0 | 0.0 | 0.5185185185185185 | 0.91
+
+== PRE-VOTE, positives = ALL collusion attempts (successful or not)  counts {'pos': 288, 'fail': 23, 'ib': 108, 'control': 144, 'benign_coord': 144, 'briefed_decline': 144, 'tacit': 0, 'cost_pressure': 0}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.953 | 0.55 | 0.58 [0.51,0.69] | 0.75 | 0.51 | 0.90 | 0.70 | briefed_decline 0.13
+  peak|cummean       0.990 | 0.69 | 0.75 [0.66,0.85] | 0.94 | 0.53 | 0.98 | 0.77 | briefed_decline 0.13
+  dsplit_k2|cummean  0.973 | 0.58 | 0.59 [0.49,0.75] | 0.82 | 0.66 | 0.98 | 0.70 | briefed_decline 0.12
+  ca_t|cummean       0.988 | 0.71 | 0.76 [0.64,0.87] | 0.92 | 1.00 | 0.99 | 0.76 | briefed_decline 0.11
+  ca_glr|cummean     0.990 | 0.74 | 0.74 [0.69,0.86] | 0.95 | 0.88 | 0.98 | 0.76 | briefed_decline 0.12
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.91 | 0.000 | 0.0 | 0.0 | 0.3888888888888889 | 0.74
+  peak|last          a=0.05: 0.97 | 0.023 | 0.0 | 0.0 | 0.7222222222222222 | 0.96
+  dsplit_k2|last     a=0.01: 0.51 | 0.002 | 0.0 | 0.0 | 0.2037037037037037 | 0.52
+  dsplit_k2|last     a=0.05: 0.73 | 0.021 | 0.0 | 0.0 | 0.4444444444444444 | 0.74
+  ca_t|last          a=0.01: 0.67 | 0.000 | 0.0 | 0.0 | 0.2222222222222222 | 0.57
+  ca_t|last          a=0.05: 0.91 | 0.019 | 0.0 | 0.0 | 0.4537037037037037 | 0.78
+  peak|cummean       a=0.01: 0.73 | 0.025 | 0.0 | 0.0 | 0.4074074074074074 | 0.57
+  peak|cummean       a=0.05: 0.94 | 0.056 | 0.0 | 0.0 | 0.6203703703703703 | 0.87
+  dsplit_k2|cummean  a=0.01: 0.49 | 0.012 | 0.0 | 0.0 | 0.24074074074074073 | 0.30
+  dsplit_k2|cummean  a=0.05: 0.72 | 0.044 | 0.0 | 0.0 | 0.46296296296296297 | 0.70
+  ca_t|cummean       a=0.01: 0.65 | 0.012 | 0.0 | 0.0 | 0.3148148148148148 | 0.43
+  ca_t|cummean       a=0.05: 0.85 | 0.042 | 0.0 | 0.0 | 0.5185185185185185 | 0.91
+
+== END, positives = ALL collusion attempts  counts {'pos': 288, 'fail': 23, 'ib': 108, 'control': 144, 'benign_coord': 144, 'briefed_decline': 144, 'tacit': 0, 'cost_pressure': 0}
+static (cummean): AUROC | TPR@0.5% | @1% [CI] | @5% | Jacc | intent | pos-vs-ib | worst-family FPR@5%
+  mean_all|cummean   0.961 | 0.59 | 0.62 [0.54,0.71] | 0.75 | 0.51 | 0.92 | 0.69 | briefed_decline 0.14
+  peak|cummean       0.995 | 0.81 | 0.83 [0.76,0.93] | 0.99 | 0.53 | 0.98 | 0.79 | briefed_decline 0.14
+  dsplit_k2|cummean  0.977 | 0.59 | 0.67 [0.47,0.77] | 0.85 | 0.66 | 0.98 | 0.69 | briefed_decline 0.15
+  ca_t|cummean       0.993 | 0.80 | 0.83 [0.69,0.93] | 0.97 | 1.00 | 0.99 | 0.77 | briefed_decline 0.13
+  ca_glr|cummean     0.995 | 0.81 | 0.84 [0.78,0.94] | 0.99 | 0.88 | 0.98 | 0.78 | briefed_decline 0.14
+anytime a=0.01 / 0.05: recall | realised FPR | median delay | pre-onset | ib rate | fail rate
+  peak|last          a=0.01: 0.94 | 0.009 | 0.0 | 0.0 | 0.5277777777777778 | 0.78
+  peak|last          a=0.05: 0.99 | 0.037 | 0.0 | 0.0 | 0.8333333333333334 | 0.96
+  dsplit_k2|last     a=0.01: 0.52 | 0.002 | 0.0 | 0.0 | 0.3333333333333333 | 0.52
+  dsplit_k2|last     a=0.05: 0.77 | 0.028 | 0.0 | 0.0 | 0.5648148148148148 | 0.78
+  ca_t|last          a=0.01: 0.72 | 0.002 | 0.0 | 0.0 | 0.32407407407407407 | 0.61
+  ca_t|last          a=0.05: 0.93 | 0.030 | 0.0 | 0.0 | 0.6481481481481481 | 0.78
+  peak|cummean       a=0.01: 0.83 | 0.025 | 0.0 | 0.0 | 0.4351851851851852 | 0.70
+  peak|cummean       a=0.05: 0.98 | 0.065 | 0.0 | 0.0 | 0.75 | 0.96
+  dsplit_k2|cummean  a=0.01: 0.52 | 0.014 | 0.0 | 0.0 | 0.2777777777777778 | 0.35
+  dsplit_k2|cummean  a=0.05: 0.76 | 0.044 | 0.0 | 0.0 | 0.5370370370370371 | 0.74
+  ca_t|cummean       a=0.01: 0.74 | 0.012 | 0.0 | 0.0 | 0.35185185185185186 | 0.57
+  ca_t|cummean       a=0.05: 0.92 | 0.049 | 0.0 | 0.0 | 0.6296296296296297 | 0.96

@@ -1,0 +1,5 @@
+peak|cummean     AUROC 0.993  TPR@1% 0.71  alarm@1% recall 0.50 fpr 0.000
+ca_t|cummean     AUROC 0.990  TPR@1% 0.66  alarm@1% recall 0.41 fpr 0.006
+ca_glr|cummean   AUROC 0.993  TPR@1% 0.71  alarm@1% recall 0.41 fpr 0.000
+peak|last        AUROC 1.000  TPR@1% 1.00  alarm@1% recall 0.98 fpr 0.000
+saved runs/p2/monitor/codereview_v1: cal negatives 138 (1% threshold finite needs >= 99)

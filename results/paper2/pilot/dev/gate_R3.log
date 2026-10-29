@@ -1,0 +1,26 @@
+{
+ "L1": {
+  "on_follow": 1.0,
+  "off_follow": 0.5,
+  "benign_shift": 0.0,
+  "n_payload": 160,
+  "n_benign": 160,
+  "passed": true
+ },
+ "L2": {
+  "on_follow": 1.0,
+  "off_follow": 0.5,
+  "benign_shift": 0.0,
+  "n_payload": 160,
+  "n_benign": 160,
+  "passed": true
+ },
+ "S1": {
+  "on_follow": 0.4897959183673469,
+  "off_follow": 0.5204081632653061,
+  "benign_shift": 0.12258064516129032,
+  "n_payload": 98,
+  "n_benign": 155,
+  "passed": false
+ }
+}

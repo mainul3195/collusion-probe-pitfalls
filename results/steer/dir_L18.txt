@@ -1,0 +1,2 @@
+layer 18: pos 10445 neg 66445 | delta 6.05 sigma 4.61 | random delta -0.00 | mean residual norm 88.4
+AUROC of projection on direction: 0.847; random: 0.503

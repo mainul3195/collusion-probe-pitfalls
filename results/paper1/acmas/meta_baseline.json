@@ -1,0 +1,51 @@
+{
+ "M1": {
+  "features": [
+   "len_chars",
+   "position",
+   "n_public",
+   "n_agents"
+  ],
+  "auc_col_vs_ctl": 0.8834423893877733,
+  "auc_col_vs_ctl_ci": [
+   0.8396175970360437,
+   0.9207077271455409
+  ],
+  "auc_col_vs_dec": 0.5424708166227347,
+  "auc_col_vs_dec_ci": [
+   0.5138364658539403,
+   0.574905255642563
+  ],
+  "auc_col_vs_ben": 0.5400231785295161,
+  "auc_col_vs_ben_ci": [
+   0.50744226930404,
+   0.5761715560278189
+  ]
+ },
+ "M2": {
+  "features": [
+   "len_chars",
+   "position",
+   "n_public",
+   "n_agents",
+   "n_private",
+   "n_tokens"
+  ],
+  "auc_col_vs_ctl": 0.9737205288257658,
+  "auc_col_vs_ctl_ci": [
+   0.9603018722872209,
+   0.9842098007416986
+  ],
+  "auc_col_vs_dec": 0.5105125964705753,
+  "auc_col_vs_dec_ci": [
+   0.47615484376754835,
+   0.54772507868807
+  ],
+  "auc_col_vs_ben": 0.6363420332030607,
+  "auc_col_vs_ben_ci": [
+   0.6030663200716332,
+   0.6697883426588023
+  ]
+ },
+ "reading": "not passable"
+}

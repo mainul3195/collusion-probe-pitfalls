@@ -1,0 +1,25 @@
+{
+ "name": "committee",
+ "n_pos": 1000,
+ "n_neg": 1900,
+ "views": {
+  "system": {
+   "auroc": 0.6619397368421053,
+   "tpr1": 0.226,
+   "tpr5": 0.337,
+   "agent_auc_col_vs_dec": 0.5467060918224597
+  },
+  "instr": {
+   "auroc": 0.8393747368421052,
+   "tpr1": 0.49,
+   "tpr5": 0.599,
+   "agent_auc_col_vs_dec": 0.9011800849082523
+  },
+  "full": {
+   "auroc": 0.837857894736842,
+   "tpr1": 0.5,
+   "tpr5": 0.604,
+   "agent_auc_col_vs_dec": 0.9018152463999425
+  }
+ }
+}

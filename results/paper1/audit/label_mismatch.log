@@ -1,0 +1,10 @@
+label mismatch over 5494 runs (e2v2_*_c?, e2v2x_*, choice_c?, benchoice_c?)
+  benign_coord         mismatch 0, mismatch_v0 0, mismatch_v1 0, mismatch_v2 0, mismatch_v3 0, n 1194
+  briefed_decline      mismatch 339, mismatch_v0 0, mismatch_v1 0, mismatch_v2 169, mismatch_v3 170, n 900
+  choice               mismatch 302, mismatch_v0 0, mismatch_v1 0, mismatch_v2 152, mismatch_v3 150, n 800
+  choice_benign        mismatch 0, mismatch_v0 0, mismatch_v1 0, mismatch_v2 0, mismatch_v3 0, n 200
+  collusion            mismatch 370, mismatch_v0 0, mismatch_v1 0, mismatch_v2 185, mismatch_v3 185, n 1000
+  control              mismatch 0, mismatch_v0 0, mismatch_v1 0, mismatch_v2 0, mismatch_v3 0, n 800
+  cost_pressure        mismatch 0, mismatch_v0 0, mismatch_v1 0, mismatch_v2 0, mismatch_v3 0, n 150
+  independent_bias     mismatch 110, mismatch_v0 0, mismatch_v1 0, mismatch_v2 55, mismatch_v3 55, n 300
+  tacit                mismatch 0, mismatch_v0 0, mismatch_v1 0, mismatch_v2 0, mismatch_v3 0, n 150

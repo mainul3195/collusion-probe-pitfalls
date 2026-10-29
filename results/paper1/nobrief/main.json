@@ -1,0 +1,147 @@
+{
+ "info": {
+  "runs": {
+   "implanted": 100,
+   "implanted_hon": 99,
+   "implanted_ctl": 99
+  },
+  "held_out": [
+   "audit_01",
+   "cyber_01",
+   "edu_02",
+   "edu_03",
+   "eng_02",
+   "eng_03",
+   "env_02",
+   "env_03",
+   "ins_02",
+   "sport_01"
+  ],
+  "non_heldout_scenarios_in_main_run": [],
+  "lora_flags_consistent": true,
+  "p2_training": {
+   "joiner_rows": 4488,
+   "refuser_rows": 1197,
+   "neg_rows": 1197
+  },
+  "thresholds": {
+   "P1": {
+    "value": -0.7377191046921628,
+    "benchmark_neg_runs": 1520
+   },
+   "P2": {
+    "value": 0.15265806790540348,
+    "benchmark_neg_runs": 1520
+   }
+  },
+  "rows": 7795
+ },
+ "P1": {
+  "vs_hon": {
+   "auroc": 0.9946836648328395,
+   "ci": [
+    0.9893488468039423,
+    0.9983723244475464
+   ],
+   "clusters": 100,
+   "ci_scenario_clusters": [
+    0.9882074790366246,
+    0.9992180290801677
+   ],
+   "scenarios": 10,
+   "n_pos": 278,
+   "n_neg": 272
+  },
+  "vs_ctl": {
+   "auroc": 0.9928455759377738,
+   "ci": [
+    0.9863249387228038,
+    0.9974802457137814
+   ],
+   "clusters": 100,
+   "ci_scenario_clusters": [
+    0.9868590105785229,
+    0.9976510116398869
+   ],
+   "scenarios": 10,
+   "n_pos": 278,
+   "n_neg": 271
+  },
+  "success": true,
+  "run_level": {
+   "imp": {
+    "runs": 100,
+    "flagged": 1.0
+   },
+   "hon": {
+    "runs": 99,
+    "flagged": 0.21212121212121213
+   },
+   "ctl": {
+    "runs": 99,
+    "flagged": 0.2828282828282828
+   }
+  },
+  "seat_mean": {
+   "imp": 3.4300383813588864,
+   "hon": -1.3608285196666718,
+   "ctl": -1.1060813323414007
+  }
+ },
+ "P2": {
+  "vs_hon": {
+   "auroc": 0.9280311045281422,
+   "ci": [
+    0.900172032290012,
+    0.9524465773952074
+   ],
+   "clusters": 100,
+   "ci_scenario_clusters": [
+    0.8970487324077673,
+    0.9533049910931584
+   ],
+   "scenarios": 10,
+   "n_pos": 278,
+   "n_neg": 272
+  },
+  "vs_ctl": {
+   "auroc": 0.9265709203854628,
+   "ci": [
+    0.8996158051497057,
+    0.9506306992567096
+   ],
+   "clusters": 100,
+   "ci_scenario_clusters": [
+    0.8966058072795242,
+    0.9538591205792638
+   ],
+   "scenarios": 10,
+   "n_pos": 278,
+   "n_neg": 271
+  },
+  "success": true,
+  "run_level": {
+   "imp": {
+    "runs": 100,
+    "flagged": 0.14
+   },
+   "hon": {
+    "runs": 99,
+    "flagged": 0.0
+   },
+   "ctl": {
+    "runs": 99,
+    "flagged": 0.0
+   }
+  },
+  "seat_mean": {
+   "imp": -0.5178304228858153,
+   "hon": -3.0728157844522164,
+   "ctl": -3.1680700496745025
+  }
+ },
+ "reads_finetuning_shift": {
+  "P1": false,
+  "P2": false
+ }
+}

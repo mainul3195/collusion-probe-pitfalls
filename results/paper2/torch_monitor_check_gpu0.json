@@ -1,0 +1,17 @@
+{
+  "monitor": "runs/p2/monitor/committee_v0",
+  "act_dir": "runs/qwen3_8b/e2v2_col_c0_act",
+  "device": "NVIDIA GeForce RTX 4080 SUPER",
+  "episodes": 100,
+  "rows": 2941,
+  "fp16": {
+    "max": 1.581534382566474e-06,
+    "mean": 1.657757769620434e-07
+  },
+  "raw": {
+    "max": 1.581534382566474e-06,
+    "mean": 1.657757769620434e-07
+  },
+  "pass_fp16": true,
+  "grad_norm": 47.766876220703125
+}

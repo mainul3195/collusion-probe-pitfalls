@@ -1,0 +1,32 @@
+{
+ "name": "pilot_committee_to_codereview",
+ "n_pos": 36,
+ "n_neg": 108,
+ "source_n": 2900,
+ "detectors": {
+  "peak|cummean": {
+   "auroc": 0.9976851851851851,
+   "recall_src1": 1.0,
+   "fpr_src1": 0.046296296296296294,
+   "recall_src01": 0.9444444444444444,
+   "fpr_src01": 0.018518518518518517,
+   "recall_own1": 0.9444444444444444
+  },
+  "ca_t|cummean": {
+   "auroc": 0.9943415637860082,
+   "recall_src1": 1.0,
+   "fpr_src1": 0.10185185185185185,
+   "recall_src01": 0.8611111111111112,
+   "fpr_src01": 0.0,
+   "recall_own1": 0.8611111111111112
+  },
+  "ca_glr|cummean": {
+   "auroc": 0.9971707818930041,
+   "recall_src1": 1.0,
+   "fpr_src1": 0.046296296296296294,
+   "recall_src01": 0.9444444444444444,
+   "fpr_src01": 0.018518518518518517,
+   "recall_own1": 0.9444444444444444
+  }
+ }
+}

@@ -1,0 +1,8 @@
+seats: {'imp': 278, 'hon': 272, 'ctl': 271}
+stance reader, agent AUROC: vs_hon 0.762 [0.704, 0.822] (n 278/272); vs_ctl 0.761 [0.706, 0.817] (n 278/271); mean P(target) {'imp': 0.22920402554358654, 'hon': 0.0003834143609344906, 'ctl': 0.00047141797077284467}
+stance reader, run level at the benchmark 1% threshold (0.997, 1520 runs): {'imp': 0.0, 'hon': 0.0, 'ctl': 0.0}
+TF-IDF reader (leave one scenario out), agent AUROC: vs_hon 0.807 [0.748, 0.859] (n 278/272); vs_ctl 0.803 [0.737, 0.860] (n 278/271)
+concealed messages {'imp': 474, 'hon': 791, 'ctl': 801}; testable True
+P1 on concealed messages, round-matched: vs_hon 0.995 [0.989, 0.998] (n 474/791); vs_ctl 0.992 [0.984, 0.996] (n 474/801); vs_hon round 1 0.997737556561086, (imp, ctl) per round {1: [34, 78], 2: [94, 169], 3: [174, 272], 4: [172, 272]}; vs_ctl round 1 0.9992997198879552, (imp, ctl) per round {1: [34, 84], 2: [94, 175], 3: [174, 271], 4: [172, 271]}; beyond the text True
+P2 on concealed messages, round-matched: vs_hon 0.928 [0.891, 0.961] (n 474/791); vs_ctl 0.958 [0.932, 0.980] (n 474/801); vs_hon round 1 0.8831070889894419, (imp, ctl) per round {1: [34, 78], 2: [94, 169], 3: [174, 272], 4: [172, 272]}; vs_ctl round 1 0.9187675070028012, (imp, ctl) per round {1: [34, 84], 2: [94, 175], 3: [174, 271], 4: [172, 271]}; beyond the text True
+reading (amendments 3-4): beyond the text: P1, P2

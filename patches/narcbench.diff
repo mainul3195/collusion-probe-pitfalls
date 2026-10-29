@@ -1,0 +1,36 @@
+diff --git a/extraction/extract_core.py b/extraction/extract_core.py
+index 31ab51f..fdae079 100644
+--- a/extraction/extract_core.py
++++ b/extraction/extract_core.py
+@@ -179,6 +179,7 @@ def load_model(model_name: str, quantise: str | None = None):
+         kwargs["max_memory"] = {0: "22GiB", 1: "22GiB", "cpu": "64GiB"}
+     else:
+         print(f"Loading model: {model_name} (device_map=auto)")
++        kwargs["torch_dtype"] = torch.bfloat16  # THESIS PATCH: avoid fp32 default (OOM on 16 GB)
+ 
+     model = AutoModelForCausalLM.from_pretrained(model_name, **kwargs)
+     model.eval()
+diff --git a/extraction/extract_stego.py b/extraction/extract_stego.py
+index f41da61..ae87b68 100644
+--- a/extraction/extract_stego.py
++++ b/extraction/extract_stego.py
+@@ -188,6 +188,7 @@ def load_model(model_name: str, quantise: str | None = None):
+         kwargs["max_memory"] = {0: "22GiB", 1: "22GiB", "cpu": "64GiB"}
+     else:
+         print(f"Loading model: {model_name} (device_map=auto)")
++        kwargs["torch_dtype"] = torch.bfloat16  # THESIS PATCH: avoid fp32 default (OOM on 16 GB)
+ 
+     model = AutoModelForCausalLM.from_pretrained(model_name, **kwargs)
+     model.eval()
+diff --git a/extraction/extract_transfer.py b/extraction/extract_transfer.py
+index 89f94ef..f4b25f7 100644
+--- a/extraction/extract_transfer.py
++++ b/extraction/extract_transfer.py
+@@ -226,6 +226,7 @@ def load_model(model_name: str, quantise: str | None = None):
+         print(f"Loading model: {model_name} (AutoModelForCausalLM, device_map=auto)")
+         model = AutoModelForCausalLM.from_pretrained(
+             model_name,
++            torch_dtype=torch.bfloat16,  # THESIS PATCH: avoid fp32 default (OOM on 16 GB)
+             device_map="auto",
+             trust_remote_code=True,
+         )

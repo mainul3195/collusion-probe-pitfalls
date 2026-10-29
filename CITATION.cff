@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "What Do Collusion Probes Read? Three Pitfalls in Evaluating Multi-Agent Collusion Monitors"
+authors:
+  - family-names: Mohsin
+    given-names: Mainul Hasan
+    affiliation: Shahjalal University of Science and Technology
+  - family-names: Rahman
+    given-names: Mohammad Shahidur
+    affiliation: Shahjalal University of Science and Technology
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/mainul3195/collusion-probe-pitfalls"

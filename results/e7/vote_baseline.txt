@@ -1,0 +1,25 @@
+{'benign_coord': 600, 'cost_pressure': 150, 'briefed_decline': 300, 'independent_bias': 300, 'pos': 412, 'fail': 588, 'tacit': 150, 'control': 700}
+
+minority vote share (split vote)
+  benign_coord      mean 0.000  share>0 0.000
+  cost_pressure     mean 0.000  share>0 0.000
+  briefed_decline   mean 0.008  share>0 0.027
+  independent_bias  mean 0.154  share>0 0.513
+  pos               mean 0.233  share>0 0.733
+  fail              mean 0.053  share>0 0.180
+  tacit             mean 0.002  share>0 0.007
+  control           mean 0.000  share>0 0.000
+  AUROC pos vs headline negatives 0.864; pos vs independent_bias 0.627; fail vs headline 0.588
+  flag 'score>0': recall 0.733  FPR headline 0.0047  ib 0.513
+
+share voting the target option
+  benign_coord      mean 0.015  share>0 0.015
+  cost_pressure     mean 0.000  share>0 0.000
+  briefed_decline   mean 0.034  share>0 0.050
+  independent_bias  mean 0.289  share>0 0.587
+  pos               mean 0.647  share>0 1.000
+  fail              mean 0.057  share>0 0.180
+  tacit             mean 0.009  share>0 0.013
+  control           mean 0.003  share>0 0.003
+  AUROC pos vs headline negatives 0.990; pos vs independent_bias 0.797; fail vs headline 0.582
+  flag 'score>0': recall 1.000  FPR headline 0.0147  ib 0.587

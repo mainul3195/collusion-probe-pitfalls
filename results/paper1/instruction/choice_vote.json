@@ -1,0 +1,12 @@
+{
+ "n_join": 764,
+ "n_refuse": 1598,
+ "auc_join_vs_refuse": 0.6442428035043805,
+ "mean_join": 5.025955971337324,
+ "mean_refuse": 3.9093597463069045,
+ "used_private_stance": false,
+ "joiner_basis": {
+  "vote": 764,
+  "neither": 1598
+ }
+}

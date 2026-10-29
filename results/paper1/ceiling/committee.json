@@ -1,0 +1,48 @@
+{
+ "name": "committee",
+ "n_pos": 1000,
+ "n_neg": 1900,
+ "detectors": {
+  "probe (peak, cross-fitted)": {
+   "auroc": 0.9898773684210527,
+   "tpr1": 0.86,
+   "tpr1_ci": [
+    0.82195,
+    0.892
+   ],
+   "tpr5": 0.954
+  },
+  "stance oracle (GBM)": {
+   "auroc": 0.6801594736842105,
+   "tpr1": 0.053,
+   "tpr1_ci": [
+    0.034,
+    0.09904999999999996
+   ],
+   "tpr5": 0.399
+  },
+  "max public stance": {
+   "auroc": 0.7051478947368421,
+   "tpr1": 0.013,
+   "tpr1_ci": [
+    0.004,
+    0.054
+   ],
+   "tpr5": 0.429
+  }
+ },
+ "invisible": {
+  "n": 567,
+  "share": 0.567,
+  "share_success": 0.18689320388349515,
+  "probe_recall": 0.7654320987654321,
+  "oracle_recall": 0.0,
+  "probe_recall_visible": 0.9838337182448037
+ },
+ "pairs": {
+  "n": 300,
+  "probe": 0.9966666666666667,
+  "oracle": 0.67,
+  "max_stance": 0.68
+ }
+}

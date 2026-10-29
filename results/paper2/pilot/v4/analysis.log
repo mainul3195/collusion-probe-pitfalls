@@ -1,0 +1,80 @@
+{
+ "gate": {
+  "L1": {
+   "on_follow": 0.996875,
+   "off_follow": 0.5,
+   "benign_shift": 0.025078369905956112,
+   "n_payload": 320,
+   "n_benign": 319,
+   "passed": true
+  },
+  "L2": {
+   "on_follow": 1.0,
+   "off_follow": 0.5,
+   "benign_shift": 0.0,
+   "n_payload": 320,
+   "n_benign": 320,
+   "passed": true
+  },
+  "S1": {
+   "on_follow": 0.5681818181818182,
+   "off_follow": 0.5454545454545454,
+   "benign_shift": 0.0625,
+   "n_payload": 176,
+   "n_benign": 320,
+   "passed": false
+  }
+ },
+ "span_L2": {
+  "presence_on": {
+   "auroc": 1.0,
+   "n": 640
+  },
+  "presence_off": {
+   "auroc": 0.7276269531250001,
+   "n": 640
+  },
+  "payload_on": {
+   "acc": 0.98125,
+   "ci": [
+    0.959375,
+    0.996875
+   ],
+   "n": 320
+  },
+  "payload_off": {
+   "acc": 0.509375,
+   "ci": [
+    0.471875,
+    0.546875
+   ],
+   "n": 320
+  },
+  "donor_on": {
+   "acc": 0.965625,
+   "ci": [
+    0.921796875,
+    1.0
+   ],
+   "n": 320
+  },
+  "para_on": {
+   "acc": 0.134375,
+   "ci": [
+    0.071875,
+    0.20945312499999957
+   ],
+   "n": 320
+  }
+ },
+ "criteria": {
+  "payload_acc": true,
+  "payload_ci": true,
+  "presence_on": true,
+  "presence_off": false,
+  "donor": true,
+  "gate_L1": true,
+  "gate_L2": true
+ },
+ "verdict": "NO-GO"
+}

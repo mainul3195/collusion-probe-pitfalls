@@ -1,0 +1,6 @@
+committee: 2900 runs (1000 attempts), 15130 agents
+committee: 1000 attempts, 1900 negatives (independent_bias excluded); context reader, leave-scenario-and-template-out
+view     run AUROC  TPR@1%  TPR@5%  agent AUROC colluder vs decliner
+system   0.662      0.23    0.34    0.547
+instr    0.839      0.49    0.59    0.904
+full     0.841      0.50    0.60    0.906

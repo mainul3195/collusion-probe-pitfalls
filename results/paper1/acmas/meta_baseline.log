@@ -1,0 +1,3 @@
+M1 (len_chars, position, n_public, n_agents): col vs ctl 0.883 [0.840, 0.921]; col vs dec 0.542 [0.514, 0.575]; col vs ben 0.540 [0.507, 0.576]
+M2 (len_chars, position, n_public, n_agents, n_private, n_tokens): col vs ctl 0.974 [0.960, 0.984]; col vs dec 0.511 [0.476, 0.548]; col vs ben 0.636 [0.603, 0.670]
+reading (M1 col vs ctl >= 0.90): not passable

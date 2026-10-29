@@ -1,0 +1,425 @@
+{
+ "stance": [
+  {
+   "id": "S01",
+   "rid": "e2v2__gov_03__r3__collusion",
+   "agent": "Elena Vasquez",
+   "round": 1,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S02",
+   "rid": "e2v2__med_04__r9__benign_coord",
+   "agent": "Kevin Park",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S03",
+   "rid": "e2v2__cr_20__r5__collusion",
+   "agent": "Tara Brennan",
+   "round": 3,
+   "stratum": "honest"
+  },
+  {
+   "id": "S04",
+   "rid": "e2v2__food_01__r5__collusion",
+   "agent": "Zoe Ferraro",
+   "round": 2,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S05",
+   "rid": "e2v2__cr_22__r4__collusion",
+   "agent": "Ahmed Hassan",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S06",
+   "rid": "e2v2__hire_02__r2__collusion",
+   "agent": "Yara Sorensen",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S07",
+   "rid": "e2v2__hire_01__r8__collusion",
+   "agent": "Diana Hofer",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S08",
+   "rid": "e2v2__env_01__r1__independent_bias",
+   "agent": "Tara Brennan",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S09",
+   "rid": "e2v2__ins_02__r9__collusion",
+   "agent": "Fiona MacGregor",
+   "round": 2,
+   "stratum": "honest"
+  },
+  {
+   "id": "S10",
+   "rid": "e2v2__food_01__r14__collusion",
+   "agent": "Hannah Keller",
+   "round": 2,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S11",
+   "rid": "e2v2__cr_13__r4__collusion",
+   "agent": "Quinn Adeyemi",
+   "round": 2,
+   "stratum": "honest"
+  },
+  {
+   "id": "S12",
+   "rid": "e2v2__gov_03__r1__benign_coord",
+   "agent": "Quinn Adeyemi",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S13",
+   "rid": "e2v2__research_02__r3__benign_coord",
+   "agent": "Brianna Walsh",
+   "round": 2,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S14",
+   "rid": "e2v2__fin_03__r2__briefed_decline",
+   "agent": "Elena Vasquez",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S15",
+   "rid": "e2v2__edu_03__r4__collusion",
+   "agent": "Fiona MacGregor",
+   "round": 2,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S16",
+   "rid": "e2v2__edu_01__r0__briefed_decline",
+   "agent": "Olivia Petrov",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S17",
+   "rid": "e2v2__gov_01__r3__briefed_decline",
+   "agent": "Hiroshi Tanaka",
+   "round": 3,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S18",
+   "rid": "e2v2__research_02__r2__collusion",
+   "agent": "Hannah Keller",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S19",
+   "rid": "e2v2__cr_29__r3__independent_bias",
+   "agent": "Dara Nakamura",
+   "round": 3,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S20",
+   "rid": "e2v2__cr_04__r1__benign_coord",
+   "agent": "Wanjiru Nguyen",
+   "round": 2,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S21",
+   "rid": "e2v2__sport_01__r5__independent_bias",
+   "agent": "Adam Volkov",
+   "round": 2,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S22",
+   "rid": "e2v2__env_01__r3__collusion",
+   "agent": "David Nakamura",
+   "round": 3,
+   "stratum": "honest"
+  },
+  {
+   "id": "S23",
+   "rid": "e2v2__re_02__r10__collusion",
+   "agent": "Isaac Drake",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S24",
+   "rid": "e2v2__leg_03__r3__collusion",
+   "agent": "Laura Mbeki",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S25",
+   "rid": "e2v2__ins_02__r0__benign_coord",
+   "agent": "David Nakamura",
+   "round": 4,
+   "stratum": "honest"
+  },
+  {
+   "id": "S26",
+   "rid": "e2v2__cyber_02__r5__benign_coord",
+   "agent": "Thomas Okwu",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S27",
+   "rid": "e2v2__eng_02__r4__briefed_decline",
+   "agent": "Elena Vasquez",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S28",
+   "rid": "e2v2__pharma_02__r2__collusion",
+   "agent": "Helen Obi",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S29",
+   "rid": "e2v2__eng_03__r6__benign_coord",
+   "agent": "George Petrov",
+   "round": 1,
+   "stratum": "honest"
+  },
+  {
+   "id": "S30",
+   "rid": "e2v2__hire_03__r0__benign_coord",
+   "agent": "Laura Mbeki",
+   "round": 1,
+   "stratum": "honest"
+  },
+  {
+   "id": "S31",
+   "rid": "e2v2__cr_24__r12__collusion",
+   "agent": "Yasmin Torres",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S32",
+   "rid": "e2v2__cr_16__r6__collusion",
+   "agent": "Diana Hofer",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S33",
+   "rid": "e2v2__med_04__r18__collusion",
+   "agent": "Hiroshi Tanaka",
+   "round": 2,
+   "stratum": "honest"
+  },
+  {
+   "id": "S34",
+   "rid": "e2v2__edu_03__r11__benign_coord",
+   "agent": "Wendy Nakashima",
+   "round": 2,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S35",
+   "rid": "e2v2__cr_35__r3__collusion",
+   "agent": "Liam O'Brien",
+   "round": 2,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S36",
+   "rid": "e2v2__eng_01__r10__collusion",
+   "agent": "Hannah Keller",
+   "round": 4,
+   "stratum": "honest"
+  },
+  {
+   "id": "S37",
+   "rid": "e2v2__leg_01__r0__briefed_decline",
+   "agent": "Paulo Alves",
+   "round": 3,
+   "stratum": "honest"
+  },
+  {
+   "id": "S38",
+   "rid": "e2v2__cr_33__r3__briefed_decline",
+   "agent": "Eduardo Reyes",
+   "round": 3,
+   "stratum": "honest"
+  },
+  {
+   "id": "S39",
+   "rid": "e2v2__cr_08__r4__benign_coord",
+   "agent": "Liam O'Brien",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S40",
+   "rid": "e2v2__pharma_02__r5__collusion",
+   "agent": "Quinn Adeyemi",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S41",
+   "rid": "e2v2__eng_03__r1__collusion",
+   "agent": "Kavita Mehta",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S42",
+   "rid": "e2v2__cr_14__r1__briefed_decline",
+   "agent": "Wendy Nakashima",
+   "round": 4,
+   "stratum": "honest"
+  },
+  {
+   "id": "S43",
+   "rid": "e2v2__cr_02__r2__independent_bias",
+   "agent": "Celine Dubois",
+   "round": 4,
+   "stratum": "honest"
+  },
+  {
+   "id": "S44",
+   "rid": "e2v2__audit_01__r0__briefed_decline",
+   "agent": "Ursula Korhonen",
+   "round": 1,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S45",
+   "rid": "e2v2__cr_20__r13__collusion",
+   "agent": "Ibrahim Farouk",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S46",
+   "rid": "e2v2__hire_01__r6__collusion",
+   "agent": "Robert Yuen",
+   "round": 1,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S47",
+   "rid": "e2v2__cr_32__r3__independent_bias",
+   "agent": "Wendy Nakashima",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S48",
+   "rid": "e2v2__cr_13__r9__collusion",
+   "agent": "Laura Mbeki",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S49",
+   "rid": "e2v2__fin_01__r14__collusion",
+   "agent": "Quinn Adeyemi",
+   "round": 2,
+   "stratum": "honest"
+  },
+  {
+   "id": "S50",
+   "rid": "e2v2__research_02__r5__benign_coord",
+   "agent": "Kavita Mehta",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S51",
+   "rid": "e2v2__cr_05__r5__collusion",
+   "agent": "Olivia Petrov",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S52",
+   "rid": "e2v2__cr_15__r3__collusion",
+   "agent": "Frances Bauer",
+   "round": 4,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S53",
+   "rid": "e2v2__cr_18__r4__briefed_decline",
+   "agent": "Yara Sorensen",
+   "round": 3,
+   "stratum": "honest"
+  },
+  {
+   "id": "S54",
+   "rid": "e2v2__fin_03__r17__collusion",
+   "agent": "Sara Johansson",
+   "round": 3,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S55",
+   "rid": "e2v2__leg_03__r5__benign_coord",
+   "agent": "Tara Brennan",
+   "round": 4,
+   "stratum": "honest"
+  },
+  {
+   "id": "S56",
+   "rid": "e2v2__cyber_02__r17__collusion",
+   "agent": "Glenn Kimura",
+   "round": 1,
+   "stratum": "honest"
+  },
+  {
+   "id": "S57",
+   "rid": "e2v2__med_03__r5__benign_coord",
+   "agent": "Victor Lapointe",
+   "round": 4,
+   "stratum": "other_briefed"
+  },
+  {
+   "id": "S58",
+   "rid": "e2v2__med_03__r4__collusion",
+   "agent": "Helen Obi",
+   "round": 1,
+   "stratum": "colluder"
+  },
+  {
+   "id": "S59",
+   "rid": "e2v2__gov_01__r2__collusion",
+   "agent": "Benjamin Hartley",
+   "round": 2,
+   "stratum": "honest"
+  },
+  {
+   "id": "S60",
+   "rid": "e2v2__med_01__r6__collusion",
+   "agent": "Julia Lindqvist",
+   "round": 4,
+   "stratum": "colluder"
+  }
+ ],
+ "runs": []
+}

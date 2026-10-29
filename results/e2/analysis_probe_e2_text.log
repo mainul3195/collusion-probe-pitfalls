@@ -1,0 +1,38 @@
+probe e2: 2057 positive rows, 38970 negative rows
+runs: {'neg_benign_coord': 700, 'pos': 71, 'neg_control': 700, 'fail': 129}
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+
+E3 static (end of episode). AUROC | TPR@1% | TPR@5%  pos vs all neg;  intent: fail vs neg AUROC
+  mean_all   cummean  0.848 | 0.30 | 0.42   Jacc=0.56   intent=0.5654097452934663   recall@5% by k={1: 0.09, 2: 0.6, 3: 0.35, 4: 0.6, 5: 0.29, 6: 0.33, 7: 0.67}
+  peak       cummean  0.893 | 0.38 | 0.55   Jacc=0.38   intent=0.612015503875969   recall@5% by k={1: 0.55, 2: 0.6, 3: 0.47, 4: 0.7, 5: 0.43, 6: 0.33, 7: 0.67}
+  dsplit_k2  cummean  0.848 | 0.44 | 0.55   Jacc=0.54   intent=0.6547563676633443   recall@5% by k={1: 0.55, 2: 0.5, 3: 0.59, 4: 0.7, 5: 0.43, 6: 1.0, 7: 0.0}
+  ca_t       cummean  0.876 | 0.54 | 0.62   Jacc=0.74   intent=0.6634108527131781   recall@5% by k={1: 0.55, 2: 0.55, 3: 0.71, 4: 0.8, 5: 0.57, 6: 1.0, 7: 0.0}
+  ca_glr     cummean  0.876 | 0.27 | 0.52   Jacc=0.65   intent=0.6062513842746401   recall@5% by k={1: 0.09, 2: 0.65, 3: 0.53, 4: 0.7, 5: 0.57, 6: 0.33, 7: 0.67}
+
+E5 anytime (thresholds from training-fold negatives). alpha: recall | realised FPR | mean delay (alarm - onset) | pre-onset alarm share of pos
+  ca_glr     cummean  a=0.05 0.52 | 0.061 | 0.46 | 0.08108108108108109
+  ca_glr     cusum    a=0.05 0.54 | 0.059 | 1.84 | 0.0
+  ca_glr     last     a=0.05 0.56 | 0.060 | 0.38 | 0.05
+  ca_t       cummean  a=0.05 0.35 | 0.081 | 0.32 | 0.12
+  ca_t       cusum    a=0.05 0.76 | 0.063 | 1.07 | 0.018518518518518517
+  ca_t       last     a=0.05 0.55 | 0.078 | 1.13 | 0.0
+  dsplit_k2  cummean  a=0.05 0.30 | 0.081 | -0.1 | 0.19047619047619047
+  dsplit_k2  cusum    a=0.05 0.73 | 0.062 | 1.31 | 0.0
+  dsplit_k2  last     a=0.05 0.51 | 0.073 | 1.03 | 0.027777777777777776
+  mean_all   cummean  a=0.05 0.46 | 0.061 | 0.27 | 0.06060606060606061
+  mean_all   cusum    a=0.05 0.48 | 0.059 | 1.88 | 0.0
+  mean_all   last     a=0.05 0.55 | 0.057 | 0.79 | 0.02564102564102564
+  peak       cummean  a=0.05 0.52 | 0.066 | 0.32 | 0.08108108108108109
+  peak       cusum    a=0.05 0.65 | 0.064 | 1.89 | 0.0
+  peak       last     a=0.05 0.76 | 0.070 | 0.69 | 0.018518518518518517
+
+E6 control-calibrated alpha=0.05: FPR on control | benign_coord
+  ca_glr|cummean|0.05          0.056 | 0.071
+  ca_t|cummean|0.05            0.083 | 0.076
+  dsplit_k2|cummean|0.05       0.074 | 0.120
+  mean_all|cummean|0.05        0.056 | 0.066
+  peak|cummean|0.05            0.070 | 0.077

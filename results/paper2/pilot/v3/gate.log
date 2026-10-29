@@ -1,0 +1,26 @@
+{
+ "L1": {
+  "on_follow": 0.5,
+  "off_follow": 0.5,
+  "benign_shift": 0.0,
+  "n_payload": 320,
+  "n_benign": 319,
+  "passed": false
+ },
+ "L2": {
+  "on_follow": 0.75,
+  "off_follow": 0.5,
+  "benign_shift": 0.0,
+  "n_payload": 320,
+  "n_benign": 320,
+  "passed": false
+ },
+ "S1": {
+  "on_follow": 0.5568181818181818,
+  "off_follow": 0.5454545454545454,
+  "benign_shift": 0.0125,
+  "n_payload": 176,
+  "n_benign": 320,
+  "passed": false
+ }
+}

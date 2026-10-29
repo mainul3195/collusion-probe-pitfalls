@@ -1,0 +1,36 @@
+{
+ "normal": {
+  "n_collusion": 261,
+  "n_briefed_decline": 261,
+  "n_benign_coord": 261,
+  "agent_auc_vs_briefed_decline": 0.9995449274085818,
+  "agent_auc_vs_briefed_decline_ci": [
+   0.9985075101928375,
+   1.0
+  ],
+  "run_auc_vs_briefed_decline": 0.9961,
+  "agent_auc_vs_benign_coord": 0.9999853202389865,
+  "agent_auc_vs_benign_coord_ci": [
+   0.999913231653618,
+   1.0
+  ],
+  "run_auc_vs_benign_coord": 1.0
+ },
+ "stripped": {
+  "n_collusion": 261,
+  "n_briefed_decline": 261,
+  "n_benign_coord": 261,
+  "agent_auc_vs_briefed_decline": 0.7974633372968689,
+  "agent_auc_vs_briefed_decline_ci": [
+   0.7472608377761247,
+   0.8468462858799264
+  ],
+  "run_auc_vs_briefed_decline": 0.751,
+  "agent_auc_vs_benign_coord": 0.8101026115294843,
+  "agent_auc_vs_benign_coord_ci": [
+   0.7565187692134119,
+   0.8608942900659268
+  ],
+  "run_auc_vs_benign_coord": 0.7545999999999998
+ }
+}

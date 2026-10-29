@@ -1,0 +1,3 @@
+P1: success True; vs_hon AUROC 0.995 [0.989, 0.998] (scenario clusters [0.988, 0.999]); vs_ctl AUROC 0.993 [0.986, 0.997] (scenario clusters [0.987, 0.998]); run level flagged at the benchmark 1% threshold: imp 1.000, hon 0.212, ctl 0.283
+P2: success True; vs_hon AUROC 0.928 [0.900, 0.952] (scenario clusters [0.897, 0.953]); vs_ctl AUROC 0.927 [0.900, 0.951] (scenario clusters [0.897, 0.954]); run level flagged at the benchmark 1% threshold: imp 0.140, hon 0.000, ctl 0.000
+reads the fine-tuning shift (PREREG reading): {'P1': False, 'P2': False}

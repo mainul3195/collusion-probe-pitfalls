@@ -1,0 +1,21 @@
+{
+ "benign_choice": false,
+ "joiner": "strict",
+ "decision_neg": true,
+ "stance_used": true,
+ "choice_heldout_scenarios": {
+  "n_join": 674,
+  "n_refuse": 560,
+  "auc_join_vs_refuse": 0.9888856506994489
+ },
+ "stripped": {
+  "n": 1569,
+  "auc_col_vs_decline": 0.716530971121892,
+  "auc_col_vs_benign": 0.7013077223987219
+ },
+ "normal": {
+  "n": 1569,
+  "auc_col_vs_decline": 0.9387779723539369,
+  "auc_col_vs_benign": 0.9665190893835756
+ }
+}

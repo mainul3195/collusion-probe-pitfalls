@@ -1,0 +1,11 @@
+{
+ "tau_1pct": 2.9919079518976988,
+ "n_acted": 949,
+ "n_not_acted": 185,
+ "n_decline": 370,
+ "flag_acted": 0.9114857744994731,
+ "flag_not_acted": 0.6108108108108108,
+ "flag_decline": 0.05675675675675676,
+ "auc_acted_vs_not": 0.7932161877367356,
+ "auc_not_acted_vs_decline": 0.9202629656683711
+}

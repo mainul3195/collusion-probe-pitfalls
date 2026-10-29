@@ -1,0 +1,4 @@
+{"agents": {"col": 523, "dec": 523, "ben": 523, "ctl": 1028}}
+M1 (len_chars, position, n_public, n_agents): col vs ctl 0.870 [0.825, 0.908]; col vs dec 0.578 [0.550, 0.608]; col vs ben 0.566 [0.529, 0.604]
+M2 (len_chars, position, n_public, n_agents, n_private, n_tokens): col vs ctl 0.966 [0.951, 0.978]; col vs dec 0.556 [0.522, 0.594]; col vs ben 0.673 [0.635, 0.712]
+reading (M1 col vs ctl >= 0.90): not passable

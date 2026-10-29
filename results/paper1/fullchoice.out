@@ -1,0 +1,51 @@
+== 2026-10-20T14:29:38+06:00 python -u instruction_tests.py choice --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --out $THESIS_ROOT/results/paper1/instruction
+choice: 1714 joiners, 648 refusers (same prompt); AUROC joiner vs refuser 0.8376865537260325; mean z 4.683126022419897 vs 2.1496039507860094; private stance used: True
+== 2026-10-20T14:30:15+06:00 python -u instruction_tests.py choice --runs $THESIS_ROOT/runs/qwen3_14b --out $THESIS_ROOT/results/paper1/instruction
+choice: 729 joiners, 1633 refusers (same prompt); AUROC joiner vs refuser 0.6586478974041061; mean z 4.828667997769993 vs 3.612812242598109; private stance used: False
+== 2026-10-20T14:30:51+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner any --out $THESIS_ROOT/results/paper1/instruction
+decision probe any (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 1714, n_refuse 648, auc_join_vs_refuse 0.946
+  stripped: n 1569, auc_col_vs_decline 0.700, auc_col_vs_benign 0.677
+  normal: n 1569, auc_col_vs_decline 0.938, auc_col_vs_benign 0.817
+== 2026-10-20T14:31:22+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner any --decision-neg --out $THESIS_ROOT/results/paper1/instruction
+decision probe any_dn (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 1714, n_refuse 648, auc_join_vs_refuse 0.941
+  stripped: n 1569, auc_col_vs_decline 0.709, auc_col_vs_benign 0.700
+  normal: n 1569, auc_col_vs_decline 0.896, auc_col_vs_benign 0.965
+== 2026-10-20T14:32:02+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner strict --out $THESIS_ROOT/results/paper1/instruction
+decision probe strict (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 642, n_refuse 648, auc_join_vs_refuse 0.988
+  stripped: n 1569, auc_col_vs_decline 0.728, auc_col_vs_benign 0.704
+  normal: n 1569, auc_col_vs_decline 0.903, auc_col_vs_benign 0.724
+== 2026-10-20T14:32:17+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner strict --decision-neg --out $THESIS_ROOT/results/paper1/instruction
+decision probe strict_dn (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 642, n_refuse 648, auc_join_vs_refuse 0.989
+  stripped: n 1569, auc_col_vs_decline 0.715, auc_col_vs_benign 0.706
+  normal: n 1569, auc_col_vs_decline 0.908, auc_col_vs_benign 0.942
+== 2026-10-20T14:32:46+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner vote --out $THESIS_ROOT/results/paper1/instruction
+decision probe vote (free-choice joiners vs refusers, scenario-cross-fitted; stance used: False)
+  choice_heldout_scenarios: n_join 729, n_refuse 1633, auc_join_vs_refuse 0.812
+  stripped: n 1569, auc_col_vs_decline 0.674, auc_col_vs_benign 0.663
+  normal: n 1569, auc_col_vs_decline 0.674, auc_col_vs_benign 0.571
+== 2026-10-20T14:33:18+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner vote --decision-neg --out $THESIS_ROOT/results/paper1/instruction
+decision probe vote_dn (free-choice joiners vs refusers, scenario-cross-fitted; stance used: False)
+  choice_heldout_scenarios: n_join 729, n_refuse 1633, auc_join_vs_refuse 0.824
+  stripped: n 1569, auc_col_vs_decline 0.669, auc_col_vs_benign 0.660
+  normal: n 1569, auc_col_vs_decline 0.647, auc_col_vs_benign 0.799
+== 2026-10-20T14:34:07+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner any --decision-neg --benign-choice --out $THESIS_ROOT/results/paper1/instruction
+decision probe any_dn_bc (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 1714, n_refuse 648, auc_join_vs_refuse 0.944
+  stripped: n 1569, auc_col_vs_decline 0.710, auc_col_vs_benign 0.710
+  normal: n 1569, auc_col_vs_decline 0.932, auc_col_vs_benign 0.987
+== 2026-10-20T14:34:54+06:00 python -u instruction_tests.py decision --runs $THESIS_ROOT/runs/qwen3_14b --stance $THESIS_ROOT/runs/qwen3_14b/stance_mistral24b --joiner strict --decision-neg --benign-choice --out $THESIS_ROOT/results/paper1/instruction
+decision probe strict_dn_bc (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 642, n_refuse 648, auc_join_vs_refuse 0.989
+  stripped: n 1569, auc_col_vs_decline 0.740, auc_col_vs_benign 0.720
+  normal: n 1569, auc_col_vs_decline 0.922, auc_col_vs_benign 0.965
+== 2026-10-20T14:35:26+06:00 bash run_p1_decision_analysis.sh any strict vote
+decision analysis COMPLETE 2026-10-20T15:14:50+06:00
+== 2026-10-20T15:14:50+06:00 env DN=1 bash run_p1_decision_analysis.sh any strict
+decision analysis COMPLETE 2026-10-20T15:37:59+06:00
+== 2026-10-20T15:37:59+06:00 env DN=1 BC=1 bash run_p1_decision_analysis.sh any strict
+decision analysis COMPLETE 2026-10-20T16:05:41+06:00
+fullchoice COMPLETE 2026-10-20T16:05:41+06:00

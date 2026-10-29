@@ -1,0 +1,4 @@
+decision probe strict (free-choice joiners vs refusers, scenario-cross-fitted; stance used: True)
+  choice_heldout_scenarios: n_join 452, n_refuse 368, auc_join_vs_refuse 0.982
+  stripped: n 1157, auc_col_vs_decline 0.733, auc_col_vs_benign 0.685
+  normal: n 1157, auc_col_vs_decline 0.898, auc_col_vs_benign 0.670

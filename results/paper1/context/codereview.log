@@ -1,0 +1,5 @@
+codereview: 504 attempts, 828 negatives (independent_bias excluded); context reader, leave-scenario-and-template-out
+view     run AUROC  TPR@1%  TPR@5%  agent AUROC colluder vs decliner
+system   0.673      0.30    0.33    0.550
+instr    0.848      0.52    0.70    0.883
+full     0.866      0.41    0.68    0.860

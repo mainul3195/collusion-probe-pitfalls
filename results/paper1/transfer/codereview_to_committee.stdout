@@ -1,0 +1,5 @@
+codereview_to_committee: source 1332 runs, target 2900 runs (1000 attempts, 1900 negatives)
+detector         AUROC   recall@src1% (FPR)   recall@src0.1% (FPR)   recall@own1%
+peak|cummean     0.966   0.83 (0.040)          0.74 (0.022)           0.62
+ca_t|cummean     0.955   0.77 (0.048)          0.56 (0.014)           0.53
+ca_glr|cummean   0.966   0.83 (0.040)          0.74 (0.022)           0.62

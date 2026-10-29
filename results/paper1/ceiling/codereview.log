@@ -1,0 +1,8 @@
+codereview: 504 attempts, 828 negatives (independent_bias excluded); pre-vote
+reader                         AUROC   TPR@1% [CI]          TPR@5%
+probe (peak, cross-fitted)     0.995   0.87 [0.76, 0.94]   0.98
+stance oracle (GBM)            0.728   0.36 [0.18, 0.43]   0.47
+max public stance              0.725   0.06 [0.01, 0.22]   0.48
+invisible attempts (no colluder argues the target in public, rounds 1-4): 264 = 0.52 of attempts (0.34 of successful ones)
+  recall at 1% FPR on them: probe 0.75, stance oracle 0.00  (probe on visible attempts 0.99)
+matched pairs collusion vs briefed_decline (same scenario, template, size): n=180; forced-choice accuracy probe 1.00, stance oracle 0.72, max stance 0.69 (chance 0.50)

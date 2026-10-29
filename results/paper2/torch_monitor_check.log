@@ -1,0 +1,119 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:11<00:47, 11.77s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:26<00:40, 13.55s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:41<00:28, 14.07s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:53<00:13, 13.18s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:54<00:00,  8.98s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:54<00:00, 10.92s/it]
+e2v2__audit_01__r0__collusion: rows 43  max|d| fp16 1.35e-01 raw 1.35e-01
+e2v2__audit_01__r1__collusion: rows 46  max|d| fp16 1.45e-01 raw 1.45e-01
+e2v2__audit_01__r2__collusion: rows 34  max|d| fp16 1.45e-01 raw 1.45e-01
+e2v2__audit_02__r0__collusion: rows 17  max|d| fp16 1.45e-01 raw 1.45e-01
+e2v2__audit_02__r1__collusion: rows 15  max|d| fp16 1.45e-01 raw 1.45e-01
+e2v2__audit_02__r2__collusion: rows 23  max|d| fp16 2.00e-01 raw 2.00e-01
+e2v2__cyber_01__r0__collusion: rows 17  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_01__r1__collusion: rows 27  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_01__r2__collusion: rows 33  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_02__r0__collusion: rows 35  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_02__r1__collusion: rows 47  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_02__r2__collusion: rows 33  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_03__r0__collusion: rows 29  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_03__r1__collusion: rows 35  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__cyber_03__r2__collusion: rows 20  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_01__r0__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_01__r1__collusion: rows 25  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_01__r2__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_02__r0__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_02__r1__collusion: rows 25  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_02__r2__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_03__r0__collusion: rows 25  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_03__r1__collusion: rows 32  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__edu_03__r2__collusion: rows 42  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_01__r0__collusion: rows 40  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_01__r1__collusion: rows 42  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_01__r2__collusion: rows 30  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_02__r0__collusion: rows 34  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_02__r1__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_02__r2__collusion: rows 34  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_03__r0__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_03__r1__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__eng_03__r2__collusion: rows 17  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_01__r0__collusion: rows 33  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_01__r1__collusion: rows 30  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_01__r2__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_02__r0__collusion: rows 28  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_02__r1__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_02__r2__collusion: rows 29  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_03__r0__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_03__r1__collusion: rows 20  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__env_03__r2__collusion: rows 20  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_01__r0__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_01__r1__collusion: rows 25  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_01__r2__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_02__r0__collusion: rows 35  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_02__r1__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_02__r2__collusion: rows 44  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_03__r0__collusion: rows 40  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_03__r1__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_03__r2__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_04__r0__collusion: rows 35  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_04__r1__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__fin_04__r2__collusion: rows 42  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_01__r0__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_01__r1__collusion: rows 40  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_01__r2__collusion: rows 28  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_02__r0__collusion: rows 20  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_02__r1__collusion: rows 28  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_02__r2__collusion: rows 27  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_03__r0__collusion: rows 25  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_03__r1__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__food_03__r2__collusion: rows 34  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_01__r0__collusion: rows 35  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_01__r1__collusion: rows 44  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_01__r2__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_02__r0__collusion: rows 33  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_02__r1__collusion: rows 40  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_02__r2__collusion: rows 30  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_03__r0__collusion: rows 15  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_03__r1__collusion: rows 28  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__gov_03__r2__collusion: rows 46  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_01__r0__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_01__r1__collusion: rows 17  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_01__r2__collusion: rows 17  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_02__r0__collusion: rows 43  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_02__r1__collusion: rows 46  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_02__r2__collusion: rows 32  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_03__r0__collusion: rows 47  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_03__r1__collusion: rows 42  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_03__r2__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_04__r0__collusion: rows 27  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_04__r1__collusion: rows 45  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__hire_04__r2__collusion: rows 17  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__ins_01__r0__collusion: rows 40  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__ins_01__r1__collusion: rows 22  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__ins_01__r2__collusion: rows 33  max|d| fp16 2.73e-01 raw 2.73e-01
+e2v2__ins_02__r0__collusion: rows 47  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__ins_02__r1__collusion: rows 17  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__ins_02__r2__collusion: rows 46  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_01__r0__collusion: rows 20  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_01__r1__collusion: rows 17  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_01__r2__collusion: rows 17  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_02__r0__collusion: rows 15  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_02__r1__collusion: rows 34  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_02__r2__collusion: rows 28  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_03__r0__collusion: rows 22  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_03__r1__collusion: rows 15  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__leg_03__r2__collusion: rows 15  max|d| fp16 2.83e-01 raw 2.83e-01
+e2v2__med_01__r0__collusion: rows 34  max|d| fp16 2.83e-01 raw 2.83e-01
+{
+ "monitor": "runs/p2/monitor/committee_v0",
+ "act_dir": "runs/qwen3_8b/e2v2_col_c0_act",
+ "device": "NVIDIA GeForce RTX 4080",
+ "episodes": 100,
+ "rows": 2941,
+ "fp16": {
+  "max": 0.2830570728567965,
+  "mean": 0.032794357593619046
+ },
+ "raw": {
+  "max": 0.2830570728567965,
+  "mean": 0.032794357593619046
+ },
+ "pass_fp16": false,
+ "grad_norm": 47.525108337402344
+}

@@ -1,0 +1,220 @@
+{
+  "layers": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "sigma0": 5.676731400075135,
+  "core": {
+    "T": 4,
+    "n_pos": 31,
+    "n_neg": 31,
+    "last": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.06451612903225806,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.0967741935483871,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.12903225806451613,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "cummean": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.03225806451612903,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.12903225806451613,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.12903225806451613,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "dsplit_cm": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.06451612903225806,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.06451612903225806,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.0967741935483871,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "cusum": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.0967741935483871,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.0967741935483871,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.0967741935483871,
+        "mean_first_alarm_round": 1.0
+      }
+    }
+  },
+  "stego": {
+    "T": 8,
+    "n_pos": 20,
+    "n_neg": 20,
+    "last": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9974999999999999,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.1
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.1
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.15,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "cummean": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.1,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "dsplit_cm": {
+      "auroc_by_round": [
+        0.9974999999999999,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.05,
+        "mean_first_alarm_round": 1.0
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.15,
+        "mean_first_alarm_round": 1.0
+      }
+    },
+    "cusum": {
+      "auroc_by_round": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alpha=0": {
+        "recall": 1.0,
+        "realised_fpr": 0.1,
+        "mean_first_alarm_round": 1.45
+      },
+      "alpha=0.05": {
+        "recall": 1.0,
+        "realised_fpr": 0.1,
+        "mean_first_alarm_round": 1.45
+      },
+      "alpha=0.1": {
+        "recall": 1.0,
+        "realised_fpr": 0.1,
+        "mean_first_alarm_round": 1.1
+      }
+    }
+  }
+}
