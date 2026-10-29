@@ -81,7 +81,8 @@ identical to the shipped one.
 - **Withheld:** the adapter that implants the collusive goal (no-brief test). Its training script and data recipe are
   here, so the result can be reproduced; the weights are available to editors and reviewers on request.
 - **Human stance check:** the three annotators' labels are in `results/paper1/audit/stance_A1.json` to `stance_A3.json`
-  (anonymised; released with their consent), with the item key `stance_sheet_key.json` and the agreement scores
+  (anonymised; released with their consent; annotators: the first author, Iftekharul Alam Tarit and
+  Mehedi Hasan Emon, whom we thank), with the item key `stance_sheet_key.json` and the agreement scores
   `review_score.{json,log}`. In `paper/numbers.tex` their keys are `hone.a1`, `hone.a2`, `hone.a3`.
 - `code/scenarios_codereview.py` contains deliberately insecure code (for example a fake hard-coded API key); these are
   the flaws the review board is meant to find. The key is not real.
