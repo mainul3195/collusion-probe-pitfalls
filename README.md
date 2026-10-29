@@ -5,7 +5,7 @@ Code, pre-registration and result summaries for the paper by Mainul Hasan Mohsin
 
 - **Paper:** arXiv link to follow
 - **Data** (all episodes, stance labels, full result files with the cross-fitted per-run monitor scores): https://huggingface.co/datasets/mainul3195/collusion-probe-pitfalls
-- **Archived release with DOI:** https://doi.org/10.5281/zenodo.23636509
+- **Archived release with DOI:** https://doi.org/10.5281/zenodo.23636508
 
 ## What is in this repository
 
